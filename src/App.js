@@ -34,7 +34,7 @@ class App extends React.Component {
           }, 
           //because setstate asyncronous, we need to console.log as another param to setstate, so we are waiting for the state to be set before logging
           () => {
-            console.log(this.state)
+            // console.log(this.state)
 
           })
         })
